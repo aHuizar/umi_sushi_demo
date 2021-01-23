@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Footer extends Component {
   render() {
@@ -8,18 +9,18 @@ class Footer extends Component {
         <footer className="footer bg-dark text-center text-info">
           <div className="container-fluid">
             <div className="row justify-content-around ">
-              <a
+              <Link
                 className="col-4 text-center text-light"
-                href="/umi_sushi_demo/menu"
+                to="/umi_sushi_demo/menu"
               >
                 <strong>Menu</strong>
-              </a>
-              <a
+              </Link>
+              <Link
                 className="col-4 text-center text-light"
-                href="/umi_sushi_demo/contact"
+                to="/umi_sushi_demo/contact"
               >
                 <strong>Contact Us</strong>
-              </a>
+              </Link>
             </div>
           </div>
         </footer>
