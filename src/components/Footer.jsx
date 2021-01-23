@@ -8,12 +8,18 @@ class Footer extends Component {
         <footer className="footer bg-dark text-center text-info">
           <div className="container-fluid">
             <div className="row justify-content-around ">
-              <div className="col-4 text-center text-light">
+              <a
+                className="col-4 text-center text-light"
+                href="/umi_sushi_demo/menu"
+              >
                 <strong>Menu</strong>
-              </div>
-              <div className="col-4 text-center text-light">
+              </a>
+              <a
+                className="col-4 text-center text-light"
+                href="/umi_sushi_demo/contact"
+              >
                 <strong>Contact Us</strong>
-              </div>
+              </a>
             </div>
           </div>
         </footer>
