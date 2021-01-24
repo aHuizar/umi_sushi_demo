@@ -31,9 +31,13 @@ class ImageBanner extends Component {
           alt="Our sushi"
         />
         <div className="col-md-5 p-lg-5 mx-auto my-5" style={headerStyle}>
-          <h2 className="display-4 font-weight-normal">{this.state.header}</h2>
+          <h2 className="font-dynamic h1 font-weight-bold">
+            {this.state.header}
+          </h2>
           {this.state.text.length !== 0 && (
-            <p className="lead font-weight-normal">{this.state.text}</p>
+            <p className="font-dynamic font-weight-lighter">
+              {this.state.text}
+            </p>
           )}
         </div>
       </div>
