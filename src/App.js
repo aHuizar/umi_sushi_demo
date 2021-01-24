@@ -9,6 +9,30 @@ import TakeOut from "./components/TakeOut";
 import Footer from "./components/Footer";
 
 class App extends Component {
+  onUnload(event) {
+    alert("page Refreshed");
+  }
+
+  // componentDidMount() {
+  //   window.addEventListener("beforeunload", this.onUnload);
+  // }
+
+  componentWillUnmount() {
+    window.removeEventListener("beforeunload", this.onUnload);
+  }
+  componentDidMount() {
+    window.onbeforeunload = function () {
+      this.onUnload();
+      console.log("refresh?");
+      return "";
+    }.bind(this);
+    window.onunload = function () {
+      console.log("unloaded!");
+      // window.location.replace("https://aHuizar.github.io/umi_sushi_demo");
+      //window.location.href = "/umi_sushi_demo/contact";
+      return "";
+    };
+  }
   render() {
     return (
       <div>

@@ -6,6 +6,63 @@
   margin-bottom: 15%;
 }
 
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 1000px) {
+  .font-dynamic {
+    font-family: "Walter Turncoat";
+    font-size: 2.75vw;
+  }
+}
+
+@media (max-width: 999px) {
+  .font-dynamic {
+    font-family: "Walter Turncoat";
+    font-size: 2.6vw;
+  }
+}
+
+.font-big {
+  font-family: "Walter Turncoat";
+  font-size: 2vw;
+}
+
+.font-white {
+  color: "ghostwhite";
+}
+
+.top-left-img {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right-img {
+  position: absolute;
+  top: 8px;
+  right: 1vw;
+}
+
+.lh-img {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+
+  transform: translate(-50%, -50%);
+}
+
+.rh-img {
+  position: absolute;
+  top: 50%;
+  left: 71%;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+}
+
 .footer {
   position: fixed;
   left: 0;
