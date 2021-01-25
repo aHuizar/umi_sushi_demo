@@ -4,6 +4,9 @@ class Cart extends Component {
   state = {
     taxRate: 1.0825,
   };
+  handleCheckout() {
+    alert("This is only a demo! Payment processing is not implemented.");
+  }
   calculateTotal() {
     let total = 0;
     this.props.cartItems.map((item) => (total += item.price * item.quantity));
@@ -105,7 +108,12 @@ class Cart extends Component {
             {this.getTableFooter()}
             <tr>
               <td colSpan="3">
-                <button className="btn btn-primary">Proceed To Checkout</button>
+                <button
+                  className="btn btn-primary"
+                  onClick={this.handleCheckout}
+                >
+                  Proceed To Checkout
+                </button>
               </td>
             </tr>
           </tbody>
