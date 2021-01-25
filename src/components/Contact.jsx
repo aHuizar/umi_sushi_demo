@@ -41,7 +41,7 @@ class Contact extends Component {
     const { name, email, msg } = this.state;
     return (
       <div className="mb-6">
-        <ImageBanner header="Contact Umi Sushi & Sake" text="" />
+        <ImageBanner header="Contact Us" text="" />
         <hr style={{ backgroundColor: "darkorange", height: "3px" }}></hr>
         <form
           onSubmit={this.submitHandler}

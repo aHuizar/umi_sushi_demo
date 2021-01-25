@@ -67,6 +67,21 @@
   transform: translate(-50%, -50%);
 }
 
+.center-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.translucent {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.text-white {
+  color: ghostwhite;
+}
+
 .footer {
   position: fixed;
   left: 0;

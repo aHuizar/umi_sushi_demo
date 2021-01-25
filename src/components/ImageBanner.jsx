@@ -13,27 +13,20 @@ class ImageBanner extends Component {
   }
 
   render() {
-    const headerStyle = {
-      position: "absolute",
-      top: "50%",
-      left: "50%",
-      transform: "translate(-50%, -50%)",
-      color: "ghostwhite",
-      backgroundColor: "rgba(0,0,0,0.65)",
-      borderRadius: "10%",
-      minWidth: "80%",
-    };
     return (
-      <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+      <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light img-container">
         <img
           src={sushiImg}
           style={{ width: "100%", height: "auto" }}
           alt="Our sushi"
         />
-        <div className="col-md-5 p-lg-5 mx-auto my-5" style={headerStyle}>
-          <h2 className="font-dynamic h1 font-weight-bold">
+        <div
+          className="center-img translucent text-white"
+          style={{ width: "85%" }}
+        >
+          <div className="font-dynamic display-4 font-weight-bold">
             {this.state.header}
-          </h2>
+          </div>
           {this.state.text.length !== 0 && (
             <p className="font-dynamic font-weight-lighter">
               {this.state.text}

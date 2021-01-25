@@ -23,10 +23,7 @@ class Menu extends Component {
       <div className="mb-5">
         {!isShopping && ( //if not shopping, display image banner
           <div>
-            <ImageBanner
-              header="Online Menu of Umi Sushi & Sake"
-              text=""
-            ></ImageBanner>
+            <ImageBanner header="Our Menu" text=""></ImageBanner>
             <hr style={{ backgroundColor: "darkorange", height: "3px" }}></hr>
           </div>
         )}

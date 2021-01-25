@@ -10,7 +10,7 @@ class Home extends Component {
     return (
       <div className="mb-5">
         <ImageBanner
-          header="About Umi Sushi & Sake"
+          header="About Us"
           text="At Umi Sushi we offer meals of excellent quality and invite you to
               try our delicious food. The key to our success is simple: providing
               quality consistent food that taste great every single time. We pride
