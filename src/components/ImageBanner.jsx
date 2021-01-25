@@ -19,7 +19,7 @@ class ImageBanner extends Component {
       left: "50%",
       transform: "translate(-50%, -50%)",
       color: "ghostwhite",
-      backgroundColor: "rgba(0,0,0,0.4)",
+      backgroundColor: "rgba(0,0,0,0.65)",
       borderRadius: "10%",
       minWidth: "80%",
     };
