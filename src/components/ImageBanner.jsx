@@ -24,9 +24,7 @@ class ImageBanner extends Component {
           className="center-img translucent text-white"
           style={{ width: "85%" }}
         >
-          <div className="font-dynamic display-4 font-weight-bold">
-            {this.state.header}
-          </div>
+          <div className="display-4 font-weight-bold">{this.state.header}</div>
           {this.state.text.length !== 0 && (
             <p className="font-dynamic font-weight-lighter">
               {this.state.text}
