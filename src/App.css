@@ -17,6 +17,10 @@
     font-family: "Walter Turncoat";
     font-size: 2.75vw;
   }
+  .display-4-lg {
+    font-weight: 500;
+    font-size: 3vw;
+  }
 }
 
 @media (max-width: 999px) {

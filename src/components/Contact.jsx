@@ -48,7 +48,6 @@ class Contact extends Component {
           id="contact-form"
           className="container"
         >
-          <h2>Contact Umi Sushi & Sake</h2>
           <div>
             <input
               type="text"
@@ -84,12 +83,9 @@ class Contact extends Component {
                 clipRule="evenodd"
               />
             </svg>
-            <input
-              type="text"
-              readOnly
-              className="form-control-plaintext"
-              value="3300 BUENA VISTA RD STEC1, BAKERSFIELD, CA, 93311, United States"
-            ></input>
+            <div className="form-control-plaintext text-wrap">
+              3300 BUENA VISTA RD STEC1, BAKERSFIELD, CA, 93311, United States
+            </div>
           </div>
           <div
             style={{

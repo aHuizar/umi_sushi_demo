@@ -20,12 +20,9 @@ class Home extends Component {
         ></ImageBanner>
         <hr style={{ backgroundColor: "darkorange", height: "3px" }}></hr>
         <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark">
-          <h5
-            className="display-4 font-weight-normal"
-            style={{ color: "ghostwhite" }}
-          >
+          <h2 className="display-4-lg" style={{ color: "ghostwhite" }}>
             Hours of Operation
-          </h5>
+          </h2>
           <div className="img-container">
             <img
               src={chalkboardImg}
@@ -66,10 +63,7 @@ class Home extends Component {
           className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light"
           style={{ textAlign: "center", width: "100%" }}
         >
-          <h2
-            className="display-4 font-weight-normal"
-            style={{ color: "grey" }}
-          >
+          <h2 className="display-4-lg" style={{ color: "grey" }}>
             Our Location
           </h2>
           <div className="img-container">
