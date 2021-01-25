@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/umi_sushi_demo/static/css/main.da7cb2be.chunk.css",
-    "main.js": "/umi_sushi_demo/static/js/main.bb19ef57.chunk.js",
-    "main.js.map": "/umi_sushi_demo/static/js/main.bb19ef57.chunk.js.map",
-    "runtime-main.js": "/umi_sushi_demo/static/js/runtime-main.5c75b314.js",
-    "runtime-main.js.map": "/umi_sushi_demo/static/js/runtime-main.5c75b314.js.map",
+    "main.js": "/umi_sushi_demo/static/js/main.82fdfdfc.chunk.js",
+    "main.js.map": "/umi_sushi_demo/static/js/main.82fdfdfc.chunk.js.map",
+    "runtime-main.js": "/umi_sushi_demo/static/js/runtime-main.59c5373c.js",
+    "runtime-main.js.map": "/umi_sushi_demo/static/js/runtime-main.59c5373c.js.map",
     "static/css/2.658248ec.chunk.css": "/umi_sushi_demo/static/css/2.658248ec.chunk.css",
-    "static/js/2.fec9e41a.chunk.js": "/umi_sushi_demo/static/js/2.fec9e41a.chunk.js",
-    "static/js/2.fec9e41a.chunk.js.map": "/umi_sushi_demo/static/js/2.fec9e41a.chunk.js.map",
-    "static/js/3.b6b43e84.chunk.js": "/umi_sushi_demo/static/js/3.b6b43e84.chunk.js",
-    "static/js/3.b6b43e84.chunk.js.map": "/umi_sushi_demo/static/js/3.b6b43e84.chunk.js.map",
+    "static/js/2.c6ca6b92.chunk.js": "/umi_sushi_demo/static/js/2.c6ca6b92.chunk.js",
+    "static/js/2.c6ca6b92.chunk.js.map": "/umi_sushi_demo/static/js/2.c6ca6b92.chunk.js.map",
+    "static/js/3.0575a865.chunk.js": "/umi_sushi_demo/static/js/3.0575a865.chunk.js",
+    "static/js/3.0575a865.chunk.js.map": "/umi_sushi_demo/static/js/3.0575a865.chunk.js.map",
     "index.html": "/umi_sushi_demo/index.html",
     "static/css/2.658248ec.chunk.css.map": "/umi_sushi_demo/static/css/2.658248ec.chunk.css.map",
     "static/css/main.da7cb2be.chunk.css.map": "/umi_sushi_demo/static/css/main.da7cb2be.chunk.css.map",
-    "static/js/2.fec9e41a.chunk.js.LICENSE.txt": "/umi_sushi_demo/static/js/2.fec9e41a.chunk.js.LICENSE.txt",
+    "static/js/2.c6ca6b92.chunk.js.LICENSE.txt": "/umi_sushi_demo/static/js/2.c6ca6b92.chunk.js.LICENSE.txt",
     "static/media/chalkboard.3d3c9a75.png": "/umi_sushi_demo/static/media/chalkboard.3d3c9a75.png",
     "static/media/sushi.f77e4cf8.png": "/umi_sushi_demo/static/media/sushi.f77e4cf8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5c75b314.js",
+    "static/js/runtime-main.59c5373c.js",
     "static/css/2.658248ec.chunk.css",
-    "static/js/2.fec9e41a.chunk.js",
+    "static/js/2.c6ca6b92.chunk.js",
     "static/css/main.da7cb2be.chunk.css",
-    "static/js/main.bb19ef57.chunk.js"
+    "static/js/main.82fdfdfc.chunk.js"
   ]
 }
