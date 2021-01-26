@@ -18,7 +18,7 @@ const NavBar = () => {
   const imageStyle = { width: "20%", height: "auto" };
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-      <Link to="/umi_sushi_demo" className="navbar-brand" onClick={collapseNav}>
+      <Link to="/" className="navbar-brand" onClick={collapseNav}>
         Umi Sushi
       </Link>
       <button
@@ -50,7 +50,7 @@ const NavBar = () => {
           <li className="nav-item ">
             <NavLink
               exact
-              to="/umi_sushi_demo/menu"
+              to="/menu"
               className="nav-link"
               type="button"
               onClick={collapseNav}
@@ -62,7 +62,7 @@ const NavBar = () => {
           </li>
           <li className="nav-item ">
             <NavLink
-              to="/umi_sushi_demo/contact"
+              to="/contact"
               className="nav-link"
               type="button"
               onClick={collapseNav}
@@ -74,7 +74,7 @@ const NavBar = () => {
           </li>
           <li className="nav-item ">
             <NavLink
-              to="/umi_sushi_demo/takeout"
+              to="/takeout"
               className="nav-link"
               type="button"
               onClick={collapseNav}

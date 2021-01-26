@@ -69,9 +69,12 @@ class Home extends Component {
           <div className="img-container">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3255.2927215004556!2d-119.12875338530691!3d35.323551857113316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ea4147f7a40a8d%3A0x7303368e31c8249a!2sUmi%20Sushi%20%26%20Sake!5e0!3m2!1sen!2sus!4v1589938910623!5m2!1sen!2sus"
-              width="100%"
-              height="600"
-              style={{ border: "1vw solid black", pointerEvents: "none" }}
+              style={{
+                border: "1vw solid black",
+                pointerEvents: "none",
+                width: "90%",
+                height: "65vh",
+              }}
               allowFullScreen={false}
               aria-hidden={false}
               tabIndex="0"

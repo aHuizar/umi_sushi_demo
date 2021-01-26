@@ -17,46 +17,46 @@ class App extends Component {
   //   window.addEventListener("beforeunload", this.onUnload);
   // }
 
-  componentWillUnmount() {
-    window.removeEventListener("beforeunload", this.onUnload);
-  }
-  componentDidMount() {
-    window.onbeforeunload = function () {
-      this.onUnload();
-      console.log("refresh?");
-      return "";
-    }.bind(this);
-    window.onunload = function () {
-      console.log("unloaded!");
-      // window.location.replace("https://aHuizar.github.io/umi_sushi_demo");
-      //window.location.href = "/umi_sushi_demo/contact";
-      return "";
-    };
-  }
+  // componentWillUnmount() {
+  //   window.removeEventListener("beforeunload", this.onUnload);
+  // }
+  // componentDidMount() {
+  //   window.onbeforeunload = function () {
+  //     this.onUnload();
+  //     console.log("refresh?");
+  //     return "";
+  //   }.bind(this);
+  //   window.onunload = function () {
+  //     console.log("unloaded!");
+  //     // window.location.replace("https://aHuizar.github.io/umi_sushi_demo");
+  //     //window.location.href = "/umi_sushi_demo/contact";
+  //     return "";
+  //   };
+  // }
   render() {
     return (
       <div>
         <NavBar />
         <Route
           exact
-          path="/umi_sushi_demo"
+          path="/"
           render={(props) => (
             <Home {...props} onMapClick={this.props.onMapClick} />
           )}
         />
         <Route
           exact
-          path="/umi_sushi_demo/menu"
+          path="/menu"
           render={(props) => <Menu {...props} isShopping={false} />}
         />
         <Route
           exact
-          path="/umi_sushi_demo/contact"
+          path="/contact"
           render={(props) => <Contact {...props} />}
         />
         <Route
           exact
-          path="/umi_sushi_demo/takeout"
+          path="/takeout"
           render={(props) => <TakeOut {...props} />}
         />
         <Footer />

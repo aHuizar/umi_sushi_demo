@@ -17,7 +17,7 @@ class ImageBanner extends Component {
       <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light img-container">
         <img
           src={sushiImg}
-          style={{ width: "100%", height: "auto" }}
+          style={{ width: "90%", height: "auto" }}
           alt="Our sushi"
         />
         <div
