@@ -16,13 +16,10 @@ class MenuSection extends Component {
     ));
 
     return (
-      <table
-        className="table table-striped table-sm"
-        style={{ margin: "0 auto" }}
-      >
+      <table className="table table-striped table-sm ">
         <thead>
           <tr>
-            <td>
+            <td className="border-top border-dark">
               <strong>{sectionName}</strong>
             </td>
             <td>

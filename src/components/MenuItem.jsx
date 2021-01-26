@@ -4,17 +4,15 @@ import React, { Component } from "react";
 
 class MenuItem extends Component {
   configMenuItem() {
-    const { name, price, description, isShopping, onItemClick } = this.props;
-    const item = { name: name, price: price, description: description };
+    const { name, price, desc, isShopping, onItemClick } = this.props;
+    const item = { name: name, price: price, desc: desc };
     const base = (
       <td>
         {name}
-        {description !== null && (
-          <span>
-            <br></br>
-            <sup>{description}</sup>
-          </span>
-        )}
+        <span>
+          <br></br>
+          <sup>{desc}</sup>
+        </span>
       </td>
     );
     if (isShopping) {
