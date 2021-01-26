@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/umi_sushi_demo/static/css/main.8713327e.chunk.css",
+    "main.css": "/umi_sushi_demo/static/css/main.1302d25e.chunk.css",
     "main.js": "/umi_sushi_demo/static/js/main.a38075b0.chunk.js",
     "main.js.map": "/umi_sushi_demo/static/js/main.a38075b0.chunk.js.map",
     "runtime-main.js": "/umi_sushi_demo/static/js/runtime-main.59c5373c.js",
@@ -12,7 +12,7 @@
     "static/js/3.0575a865.chunk.js.map": "/umi_sushi_demo/static/js/3.0575a865.chunk.js.map",
     "index.html": "/umi_sushi_demo/index.html",
     "static/css/2.658248ec.chunk.css.map": "/umi_sushi_demo/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.8713327e.chunk.css.map": "/umi_sushi_demo/static/css/main.8713327e.chunk.css.map",
+    "static/css/main.1302d25e.chunk.css.map": "/umi_sushi_demo/static/css/main.1302d25e.chunk.css.map",
     "static/js/2.35832b11.chunk.js.LICENSE.txt": "/umi_sushi_demo/static/js/2.35832b11.chunk.js.LICENSE.txt",
     "static/media/chalkboard.3d3c9a75.png": "/umi_sushi_demo/static/media/chalkboard.3d3c9a75.png",
     "static/media/sushi.f77e4cf8.png": "/umi_sushi_demo/static/media/sushi.f77e4cf8.png"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.59c5373c.js",
     "static/css/2.658248ec.chunk.css",
     "static/js/2.35832b11.chunk.js",
-    "static/css/main.8713327e.chunk.css",
+    "static/css/main.1302d25e.chunk.css",
     "static/js/main.a38075b0.chunk.js"
   ]
 }
