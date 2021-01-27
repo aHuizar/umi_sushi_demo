@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ImageBanner from "./ImageBanner";
 import Menu from "./Menu";
 import AddToCartPage from "./AddToCartPage";
 import Cart from "./Cart";
@@ -123,7 +122,6 @@ class TakeOut extends Component {
     } else {
       return (
         <div>
-          <ImageBanner text="" header="Order for Takeout" />
           <hr style={{ backgroundColor: "darkorange", height: "3px" }}></hr>
           <div
             className="site-header  py-1c bg-dark"
@@ -135,9 +133,7 @@ class TakeOut extends Component {
                   color: "ghostwhite",
                   transform: "translateY(0.3em)",
                 }}
-              >
-                <h2>Umi Sushi & Sake</h2>
-              </span>
+              ></span>
               <span
                 onClick={this.handleInfo}
                 className="badge badge-info"

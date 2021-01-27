@@ -18,8 +18,8 @@ const NavBar = () => {
   const imageStyle = { width: "20%", height: "auto" };
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-      <Link to="/" className="navbar-brand" onClick={collapseNav}>
-        Umi Sushi
+      <Link to="/" className="navbar-brand h2" onClick={collapseNav}>
+        Umi Sushi & Sake
       </Link>
       <button
         className="navbar-toggler border border-light"
