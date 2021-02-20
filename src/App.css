@@ -15,7 +15,7 @@
 @media (min-width: 1000px) {
   .font-dynamic {
     font-family: "Walter Turncoat";
-    font-size: 2.75vw;
+    font-size: 2.1vw;
   }
   .display-4-lg {
     font-weight: 500;
@@ -26,7 +26,7 @@
 @media (max-width: 999px) {
   .font-dynamic {
     font-family: "Walter Turncoat";
-    font-size: 2.6vw;
+    font-size: 3.4vh;
   }
 }
 
@@ -75,7 +75,7 @@
 }
 
 .translucent {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .text-white {

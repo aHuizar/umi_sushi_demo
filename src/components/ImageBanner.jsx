@@ -22,13 +22,23 @@ class ImageBanner extends Component {
         />
         <div
           className="center-img translucent text-white"
-          style={{ width: "85%" }}
+          style={{ width: "83%" }}
         >
-          <div className="display-4 font-weight-bold">{this.state.header}</div>
-          {this.state.text.length !== 0 && (
-            <p className="font-dynamic font-weight-lighter">
-              {this.state.text}
-            </p>
+          {this.state.text.length > 0 ? (
+            <>
+              <div className="display-4-lg font-weight-bold">
+                {this.state.header}
+              </div>
+              <p className="font-dynamic font-weight-lighter">
+                {this.state.text}
+              </p>
+            </>
+          ) : (
+            <>
+              <div className="display-4 font-weight-bold">
+                {this.state.header}
+              </div>
+            </>
           )}
         </div>
       </div>
