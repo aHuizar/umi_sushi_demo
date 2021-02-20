@@ -11,13 +11,13 @@ class Footer extends Component {
             <div className="row justify-content-around ">
               <Link
                 className="col-4 text-center text-light"
-                to="/umi_sushi_demo/menu"
+                to="/menu"
               >
                 <strong>Menu</strong>
               </Link>
               <Link
                 className="col-4 text-center text-light"
-                to="/umi_sushi_demo/contact"
+                to="/contact"
               >
                 <strong>Contact Us</strong>
               </Link>
