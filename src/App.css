@@ -15,8 +15,9 @@
 @media (min-width: 1000px) {
   .font-dynamic {
     font-family: "Walter Turncoat";
-    font-size: 2.1vw;
+    font-size: 2vw;
   }
+
   .display-4-lg {
     font-weight: 500;
     font-size: 3vw;
@@ -26,7 +27,7 @@
 @media (max-width: 999px) {
   .font-dynamic {
     font-family: "Walter Turncoat";
-    font-size: 3.4vh;
+    font-size: 2vh;
   }
 }
 
@@ -88,8 +89,10 @@
   bottom: 0;
   width: 100%;
   text-align: center;
-  height: 4.5em; /* Set the fixed height of the footer here */
-  line-height: 4.5em; /* Vertically center the text there */
+  height: 4.5em;
+  /* Set the fixed height of the footer here */
+  line-height: 4.5em;
+  /* Vertically center the text there */
 }
 
 .App-logo {
@@ -122,6 +125,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

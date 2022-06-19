@@ -3,8 +3,18 @@ import chalkboardImg from "./../images/chalkboard.png";
 import ImageBanner from "./ImageBanner";
 
 class Home extends Component {
+  constructor() {
+    super();
+    this.state = {
+      dynamicText: (<>Monday - Thursday, Sunday</>),
+    };
+  }
   componentDidMount() {
     window.scrollTo(0, 0);
+    let width = window.screen.width;
+    if (width <= 999) {
+      this.setState({ dynamicText: (<>Monday - Thursday, <br/>Sunday</>)});
+    }
   }
   render() {
     return (
@@ -26,7 +36,7 @@ class Home extends Component {
           <div className="img-container">
             <img
               src={chalkboardImg}
-              style={{ width: "95%", height: "auto" }}
+              style={{ width: "98%", height: "auto" }}
               alt="Chalkboard"
             />
             <div className="lh-img font-dynamic font-white">
@@ -34,7 +44,7 @@ class Home extends Component {
                 <b>Open hours</b>
               </h5>
               <div className="entry">
-                <div>Monday&nbsp;-&nbsp;Thursday, Sunday</div>
+                <div>{this.state.dynamicText}</div>
                 <div>11:30 AM&nbsp;-&nbsp;8:30 PM</div>
               </div>
               <div className="entry border-top border-warning">
@@ -47,7 +57,7 @@ class Home extends Component {
                 <b>Pickup service</b>
               </h5>
               <div className="entry">
-                <div>Monday&nbsp;-&nbsp;Thursday, Sunday</div>
+                <div>{this.state.dynamicText}</div>
                 <div>11:30 AM&nbsp;-&nbsp;8:15 PM</div>
               </div>
               <div className="entry border-top border-warning">
